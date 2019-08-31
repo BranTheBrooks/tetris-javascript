@@ -167,7 +167,7 @@ const newField = () => {
 
 const newTetromino = () => {
 	const random = Math.floor(Math.random() * 7);
-	return tetrominoArray[0];
+	return tetrominoArray[random];
 };
 
 const overlap = (field, piece) => {
