@@ -10,6 +10,11 @@ h1 {
 	margin: 12px;
 }
 
+p {
+	font-size: 12px;
+	margin: 6px;
+}
+
 #points {
 	font-size: 24px;
 	margin: 12px;
