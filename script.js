@@ -180,7 +180,7 @@ const overlap = (field, piece) => {
 			tx = loc.x + x;
 			ty = loc.y + y;
 			if (t[y][x] > 0) {
-				if (tx < 0 || tx > 9 || ty < 0 || ty > 17) {
+				if (tx < 0 || tx > 9 || ty < -2 || ty > 17) {
 					return true;
 				} else if (field[ty][tx] > 0) {
 					return true;
